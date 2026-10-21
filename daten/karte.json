@@ -1,0 +1,684 @@
+{
+  "stand": "Oktober 2026",
+  "gruppen": [
+    {
+      "id": "sushi",
+      "titel": "Sushi & Küche",
+      "bild": "nigiri",
+      "kategorien": [
+        {
+          "titel": "Vorspeisen",
+          "artikel": [
+            { "nr": 10, "name": "Edamame Classic", "text": "gekocht, mit Salz oder Spicy Togarashi", "preis": ["6.50"] },
+            { "nr": 11, "name": "Edamame Frittiert", "text": "knusprig, mit Salz oder Spicy Togarashi", "preis": ["7.50"] },
+            { "nr": 12, "name": "Mini-Frühlingsrollen (5 Stk.)", "text": "knusprige Röllchen aus dünnem Teig, gefüllt mit Gemüse", "preis": ["5.90"] },
+            { "nr": 13, "name": "Tempura Garnelen (3 Stk.)", "text": "mit Süß-Sauer-Soße", "preis": ["6.90"] },
+            { "nr": 14, "name": "Garnele Mon Frère Spezial", "text": "drei Garnelen auf knusprig frittiertem Reispapier, mit frischen Tomaten und einer würzig-scharfen Soße", "preis": ["9.90"] },
+            { "nr": 15, "name": "Gyoza Chicken (5 Stk.)", "text": "frittiert oder gekocht, mit Teriyaki-Soße", "preis": ["6.90"] },
+            { "nr": 16, "name": "Gyoza Veggie (5 Stk.)", "text": "frittiert oder gekocht, mit Süß-Sauer-Soße", "preis": ["6.50"] },
+            { "nr": 17, "name": "Yakitori Spieße (3 Stk.)", "text": "Hähnchen, Teriyaki-Soße", "preis": ["7.50"] },
+            { "nr": 18, "name": "Mon Frère Salat", "text": "Surimi-Sticks, Gurke, Karotte, Masago orange, Light-Majo", "preis": ["8.90"] },
+            { "nr": 19, "name": "Pommes", "preis": ["5.90"] },
+            { "nr": 20, "name": "Süßkartoffel-Pommes", "preis": ["6.50"] },
+            { "nr": 21, "name": "Mozzarella Sticks (5 Stk.)", "preis": ["5.90"] },
+            { "nr": 22, "name": "Chicken Nuggets (6 Stk.)", "preis": ["6.90"] },
+            { "nr": 23, "name": "Marinierter Lachs", "text": "Lachsscheiben in hausgemachter Marinade", "preis": ["10.90"] },
+            { "nr": 24, "name": "Marinierter Tuna Jalapeño", "text": "Thunfischscheiben in leicht scharfer Jalapeño-Marinade", "preis": ["10.90"] }
+          ]
+        },
+        {
+          "titel": "Nigiri",
+          "hinweis": "je 2 Stück – Reisbällchen mit Topping",
+          "artikel": [
+            { "nr": 25, "name": "Avocado Nigiri", "preis": ["4.50"] },
+            { "nr": 26, "name": "Lachs Nigiri", "preis": ["4.90"] },
+            { "nr": 27, "name": "Thunfisch Nigiri", "preis": ["5.90"] }
+          ]
+        },
+        {
+          "titel": "Sashimi",
+          "hinweis": "geschnittene, zarte Filets",
+          "artikel": [
+            { "nr": 28, "name": "Lachs Sashimi (6 Stk.)", "preis": ["10.90"] },
+            { "nr": 29, "name": "Thunfisch Sashimi (6 Stk.)", "preis": ["11.90"] },
+            { "nr": 30, "name": "Sashimi Mix (8 Stk.)", "text": "4× Lachs, 4× Thunfisch", "preis": ["15.90"] }
+          ]
+        },
+        {
+          "titel": "Hoso Maki",
+          "hinweis": "je 8 Stück – kleine Rolle in Seetangpapier",
+          "artikel": [
+            { "nr": 31, "name": "Gurken Maki", "preis": ["4.90"] },
+            { "nr": 32, "name": "Avocado Maki", "preis": ["5.20"] },
+            { "nr": 33, "name": "Surimi Maki", "preis": ["5.50"] },
+            { "nr": 34, "name": "Süßkartoffel Maki", "preis": ["5.50"] },
+            { "nr": 35, "name": "Lachs Maki", "preis": ["5.90"] },
+            { "nr": 36, "name": "Thunfisch Maki", "preis": ["5.90"] }
+          ]
+        },
+        {
+          "titel": "Inside Out",
+          "hinweis": "je 8 Stück – umgekehrte Reisrolle",
+          "artikel": [
+            { "nr": 37, "name": "Veggie Roll", "text": "Avocado, Gurke, Paprika, Sesam, Creme vegan", "preis": ["11.00"] },
+            { "nr": 38, "name": "Rote Bete Roll", "text": "Rote Bete innen & als Topping, Karotte, Gurke, Avocado", "preis": ["11.00"] },
+            { "nr": 39, "name": "California Salmon Masago Roll", "text": "Lachs, Gurke, Avocado, Light-Majo, Masago", "preis": ["11.40"] },
+            { "nr": 40, "name": "California Tuna Roll", "text": "Thunfisch, Gurke, Avocado, Light-Majo", "preis": ["12.00"] },
+            { "nr": 41, "name": "Avocado Roll", "text": "Surimi, Avocado, Light-Majo", "preis": ["12.00"] },
+            { "nr": 42, "name": "Mango Roll", "text": "Surimi, Mango, Light-Majo", "preis": ["12.00"] },
+            { "nr": 43, "name": "Philadelphia Tuna Sesam Roll", "text": "Thunfisch, Frischkäse, Avocado", "preis": ["12.40"] },
+            { "nr": 44, "name": "Philadelphia Salmon Sesam Roll", "text": "Lachs, Frischkäse, Avocado", "preis": ["12.40"] },
+            { "nr": 45, "name": "Spicy Salmon Roll", "text": "Lachs, Avocado, Gurke, Spicy-Soße, Togarashi", "preis": ["12.40"] },
+            { "nr": 46, "name": "Paprika Beef Roll", "text": "Beef in Tempura, Frischkäse, Avocado, getoppt mit frittierter Paprika", "preis": ["13.50"] },
+            { "nr": 47, "name": "Mon Frère Special Roll", "text": "Beef, Avocado, Frischkäse, Light-Majo, Sesam", "preis": ["13.50"] },
+            { "nr": 48, "name": "Spicy Tuna Roll", "text": "Thunfisch, Gurke, Avocado, Spicy-Soße", "preis": ["13.00"] },
+            { "nr": 49, "name": "Crazy Roll", "text": "Surimi, Sesamöl, japanische Majo – innen & als Topping", "preis": ["13.40"] },
+            { "nr": 50, "name": "Tempura Shrimp Roll", "text": "Tempura-Garnelen, Avocado, Frischkäse, getoppt mit Mon Frère Spezialsoße", "preis": ["13.40"] },
+            { "nr": 51, "name": "Dragon Roll", "text": "Garnele, Frischkäse, Avocado, getoppt mit Avocado", "preis": ["13.90"] },
+            { "nr": 52, "name": "Rainbow Roll", "text": "Avocado, Gurke, Frischkäse, Lachs & Thunfisch", "preis": ["13.90"] }
+          ]
+        },
+        {
+          "titel": "Crunchy Rolls",
+          "hinweis": "je 8 Stück – im Tempura-Mantel, getoppt mit Mon Frère Spezialsoße & Teriyaki",
+          "artikel": [
+            { "nr": 53, "name": "Crunchy Veggie Roll", "text": "Gurke, Paprika, Avocado, vegane Creme", "preis": ["11.40"] },
+            { "nr": 54, "name": "Crunchy Chicken Roll", "text": "Hähnchen, Frischkäse, Avocado, Gurke", "preis": ["12.00"] },
+            { "nr": 55, "name": "Crunchy Sakura Roll", "text": "Frischkäse, Avocado, Lachs, Masago rot", "preis": ["13.00"] },
+            { "nr": 56, "name": "Crunchy Shrimp Roll", "text": "Tempura-Garnele, Frischkäse, Avocado", "preis": ["13.40"] },
+            { "nr": 57, "name": "Crunchy Salmon Roll", "text": "Lachs, Frischkäse, Avocado", "preis": ["14.00"] },
+            { "nr": 58, "name": "Crunchy Hot Salmon Roll", "text": "Lachs, Frischkäse, Avocado, Sriracha", "preis": ["14.00"] },
+            { "nr": 59, "name": "Crunchy Tuna Roll", "text": "Thunfisch, Gurke, Frischkäse", "preis": ["14.40"] },
+            { "nr": 60, "name": "Crunchy Hot Tuna Roll", "text": "Thunfisch, Gurke, Frischkäse, Sriracha", "preis": ["14.40"] },
+            { "nr": 61, "name": "Crunchy Beef Roll", "text": "Beef, Avocado, Frischkäse, Sriracha", "preis": ["14.00"] }
+          ]
+        },
+        {
+          "titel": "Sushi-Platten",
+          "hinweis": "zum Teilen – frisch zusammengestellt",
+          "artikel": [
+            { "nr": 62, "name": "Mon Classic Platte", "text": "36 Stück: 8 Lachs Maki, 8 Gurken Maki, 8 California Tuna Roll, 8 Crunchy Roll (Lachs oder Chicken), 2 Lachs Nigiri, 2 Thunfisch Nigiri", "preis": ["40.90"] },
+            { "nr": 63, "name": "Mon Golden Platte", "text": "ohne rohen Fisch · 32 Stück: 8 Crunchy Chicken Roll, 8 Dragon Roll, 8 Crazy Roll, 8 Paprika Beef Roll", "preis": ["44.90"] },
+            { "nr": 64, "name": "Mon Salmon Platte", "text": "40 Stück: 8 Lachs Maki, 8 Crunchy Salmon Roll, 8 California Salmon Roll, 8 Philadelphia Salmon Sesam Roll, 2 Lachs Nigiri, 6 Lachs Sashimi · auch scharf erhältlich", "preis": ["50.90"] },
+            { "nr": 65, "name": "Mon Frère Fingerfood-Platte", "text": "6 Chicken Nuggets, 4 Mozzarella Sticks, 4 Mini-Frühlingsrollen, Pommes mit 2 Dips nach Wahl (Ketchup, Mayonnaise, Süßsauer, Aioli)", "preis": ["17.90"] }
+          ]
+        },
+        {
+          "titel": "Bowls",
+          "artikel": [
+            { "nr": 66, "name": "Veggie Bowl", "text": "Halloumi, Couscous, Avocado, Gurke, Paprika, Edamame, Karotte, Tomate, Sesam, Fattoush-Brot, Aioli-Soße, Balsamico-Creme", "preis": ["10.90"] },
+            { "nr": 67, "name": "Chicken Bowl", "text": "frittierte Hähnchensticks, Couscous, Avocado, Gurke, Paprika, Edamame, Karotte, Sesam, Teriyaki-Soße, Aioli-Soße", "preis": ["12.90"] },
+            { "nr": 68, "name": "Shrimp Bowl", "text": "Tempura-Garnelen, Couscous, Avocado, Gurke, Paprika, Edamame, Karotte, Tomate, Sesam, Unagi-Soße, Aioli-Soße", "preis": ["13.90"] },
+            { "nr": 69, "name": "Beef Bowl", "text": "gebratene Rinderfiletstreifen, Couscous, Avocado, Gurke, Paprika, Edamame, Karotte, Sesam, Fattoush-Brot, Balsamico-Creme, Aioli-Soße, Tomate", "preis": ["13.90"] }
+          ]
+        },
+        {
+          "titel": "Mon Frère Penne",
+          "hinweis": "in cremiger Tomatensoße mit Kirschtomaten",
+          "artikel": [
+            { "nr": 70, "name": "Veggie Penne", "preis": ["10.90"] },
+            { "nr": 71, "name": "Chicken Penne", "preis": ["11.90"] },
+            { "nr": 72, "name": "Shrimp Penne", "preis": ["13.90"] },
+            { "nr": 73, "name": "Beef Penne", "preis": ["13.90"] }
+          ]
+        },
+        {
+          "titel": "Mon Frère Curry",
+          "hinweis": "mit Kokosmilch & Asia-Gemüse, serviert mit Reis",
+          "artikel": [
+            { "nr": 74, "name": "Veggie Curry", "preis": ["10.90"] },
+            { "nr": 75, "name": "Chicken Curry", "preis": ["11.90"] },
+            { "nr": 76, "name": "Shrimp Curry", "preis": ["13.90"] },
+            { "nr": 77, "name": "Beef Curry", "preis": ["13.90"] }
+          ]
+        },
+        {
+          "titel": "Pfannengerichte",
+          "artikel": [
+            { "nr": 78, "name": "Garnelen Pfanne", "text": "mit Knoblauch, Kirschtomaten & Olivenöl – serviert mit Brot", "preis": ["13.90"] },
+            { "nr": 79, "name": "Chicken Pfanne", "preis": ["12.90"] },
+            { "nr": 80, "name": "Beef Pfanne", "preis": ["13.90"] },
+            { "nr": 81, "name": "Garnelen & Beef Pfanne", "preis": ["17.90"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "suesses",
+      "titel": "Desserts & Snacks",
+      "bild": "lava-cake",
+      "kategorien": [
+        {
+          "titel": "Desserts",
+          "artikel": [
+            { "name": "Verschiedene Torten", "preis": ["5.90"] },
+            { "name": "Lava Cake", "text": "mit einer Kugel Vanilleeis", "preis": ["7.90"] },
+            { "name": "Tiramisu Klassik", "preis": ["6.50"] },
+            { "name": "Cheesecake", "preis": ["6.50"] },
+            { "name": "Mochi", "text": "japanische süße Reisküchlein mit cremiger Füllung", "preis": ["5.90"] },
+            { "name": "Churros mit Nutella", "text": "12 kleine Stück", "preis": ["8.90"] },
+            { "name": "3 Kugeln Eis nach Wahl", "preis": ["6.90"] },
+            { "name": "Spaghetti-Eis", "text": "mit Sahne, Erdbeersoße und Streuseln", "preis": ["9.90"] },
+            { "name": "Mon Frère Dessert-Platte", "text": "1× Lava Cake mit Vanilleeis, 1× Tiramisu, 1× Cheesecake, 8 kleine Churros", "preis": ["18.90"] }
+          ]
+        },
+        {
+          "titel": "Snacks",
+          "artikel": [
+            { "name": "Erdnüsse", "preis": ["4.40"] },
+            { "name": "Cashews", "preis": ["4.40"] },
+            { "name": "Nic Nac’s", "preis": ["4.40"] },
+            { "name": "Pistazien", "preis": ["5.90"] },
+            { "name": "Nachos", "text": "mit Salsa oder Käse-Dip", "z": "a,c,g,6", "preis": ["6.40"] },
+            { "name": "Obstteller", "preis": ["11.90"] },
+            { "name": "Mon Frère Snack-Platte", "text": "Erdnüsse, Cashews, Nic Nac’s & Pistazien", "preis": ["13.90"] }
+          ]
+        },
+        {
+          "titel": "Dips",
+          "hinweis": "je 0,90 €",
+          "liste": true,
+          "artikel": [
+            { "name": "Käse-Dip", "z": "g,c" },
+            { "name": "Salsa" },
+            { "name": "Mayonnaise", "z": "c,j" },
+            { "name": "Trüffel-Mayo" },
+            { "name": "Ketchup" },
+            { "name": "Süßsauer", "z": "l" },
+            { "name": "Spicy Mayo" },
+            { "name": "Aioli", "z": "c,j" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shisha",
+      "titel": "Shisha",
+      "bild": "shisha-kopf",
+      "intro": "Happy Hour täglich von 12 bis 17 Uhr: alle Shisha-Sorten nur 8,90 €. Shisha nur ab 18 Jahren.",
+      "kategorien": [
+        {
+          "titel": "Gold",
+          "hinweis": "alle Gold-Sorten",
+          "preis": "12.90",
+          "liste": true,
+          "artikel": [
+            { "name": "Zitrone Minze" }, { "name": "Traube Minze" }, { "name": "Doppelapfel" },
+            { "name": "Doppelapfel Minze" }, { "name": "Wassermelone" }, { "name": "Falim" }
+          ]
+        },
+        {
+          "titel": "Platin",
+          "hinweis": "alle Platin-Sorten",
+          "preis": "14.90",
+          "unter": [
+            {
+              "titel": "Frische & Zitrus",
+              "artikel": [
+                { "name": "Lemon Fresh", "text": "intensiv frische Zitrone" },
+                { "name": "Lemon Chill", "text": "Zitrone mit kühler Minznote" },
+                { "name": "Black Nana", "text": "schwarze Traube & Minze" },
+                { "name": "Pistachio Breeze", "text": "cremige Pistazie mit frischer Note" }
+              ]
+            },
+            {
+              "titel": "Fruchtig & Chill",
+              "artikel": [
+                { "name": "Cold Peach", "text": "Pfirsich mit Cooling-Effekt" },
+                { "name": "Watermelon Chill", "text": "Wassermelone & Minzfrische" },
+                { "name": "Ice Kaktus", "text": "Kaktusfrucht, eiskalt" },
+                { "name": "Blueberry", "text": "süße Blaubeere" },
+                { "name": "Hamburg", "text": "Beerencocktail mit leichter Frische" },
+                { "name": "Sommer in Beirut", "text": "fruchtiger Sommer-Mix" },
+                { "name": "Orange Ice", "text": "Orange mit eisiger Frische" }
+              ]
+            },
+            {
+              "titel": "Beliebte Klassiker",
+              "artikel": [
+                { "name": "Love 66", "text": "Maracuja, Wassermelone & kühle Note" },
+                { "name": "Moloko", "text": "Energy-Drink, fruchtig-spritzig" },
+                { "name": "Ice Bonbon", "text": "Bonbons mit Eisfrische" }
+              ]
+            },
+            {
+              "titel": "Exotisch & Besonders",
+              "artikel": [
+                { "name": "African Queen", "text": "Fruchtmix" },
+                { "name": "Blackbox", "text": "dunkle Beerennote mit Frische" },
+                { "name": "Cinderella", "text": "fruchtig-süß, exotische Mischung" },
+                { "name": "Da Bomb", "text": "Zitrone, Amaretto (Mandel), Gebäck-Note" }
+              ]
+            }
+          ]
+        },
+        {
+          "titel": "Nikotinfreier Tabak",
+          "hinweis": "alle nikotinfreien Sorten",
+          "preis": "12.90",
+          "liste": true,
+          "artikel": [
+            { "name": "Doppelapfel" }, { "name": "Traube Minze" }, { "name": "Zitrone Minze" }, { "name": "Minze" },
+            { "name": "Wassermelone Ice" }, { "name": "Pfirsich Ice" }, { "name": "Kaktusfeige Ice" },
+            { "name": "African Queen", "text": "Fruchtmix" }, { "name": "Moloko" }, { "name": "Ice Bonbon" }
+          ]
+        },
+        {
+          "titel": "Specials",
+          "artikel": [
+            { "name": "Pistachio mit Milchbowl", "preis": ["18.90"] },
+            { "name": "Shisha Mix", "preis": ["15.90"] }
+          ]
+        },
+        {
+          "titel": "Auf Wunsch",
+          "artikel": [
+            { "name": "Eisschlauch", "preis": ["+2.00"] },
+            { "name": "Neuer Kopf", "preis": ["+10.00"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cocktails",
+      "titel": "Cocktails",
+      "bild": "cocktails",
+      "kategorien": [
+        {
+          "titel": "Mules",
+          "artikel": [
+            { "name": "Moscow Mule", "text": "Wodka, Limettensaft, Ginger Beer", "preis": ["9.90"] },
+            { "name": "Gin Mule", "text": "Gin, Limettensaft, Ginger Beer", "preis": ["9.90"] },
+            { "name": "Dark ’n’ Stormy", "text": "dunkler Rum, Limettenscheiben, Ginger Beer", "preis": ["9.90"] }
+          ]
+        },
+        {
+          "titel": "Mojitos",
+          "artikel": [
+            { "name": "Mojito", "text": "weißer Rum, Limettenscheiben, Rohrzucker, Sodawasser", "preis": ["9.90"] },
+            { "name": "Raz Mojito", "text": "Himbeer-Rum, Himbeerpüree, Limette, Sprite", "preis": ["9.90"] },
+            { "name": "Caipirinha", "text": "Cachaça, Limettenscheiben, Rohrzucker, Soda", "preis": ["9.90"] },
+            { "name": "Cuba Libre", "text": "Havana Club 3, Limettenscheiben, Cola", "preis": ["8.90"] },
+            { "name": "Gin Basil Smash", "text": "Gin, Zitronensaft, Basilikumblätter, Zuckersirup", "preis": ["10.90"] }
+          ]
+        },
+        {
+          "titel": "Martini-Varianten",
+          "artikel": [
+            { "name": "Espresso Martini", "text": "Espresso, Wodka, Kahlúa, Zuckersirup", "preis": ["9.90"] },
+            { "name": "White Lady", "text": "Gin, Zitronensaft, Triple Sec, Zuckersirup", "preis": ["9.90"] },
+            { "name": "Pornstar Martini", "text": "Wodka, Maracujapüree, Passoa, Limettensaft, Vanillesirup", "preis": ["10.90"] }
+          ]
+        },
+        {
+          "titel": "Daiquiris & Frozen",
+          "artikel": [
+            { "name": "Daiquiri / Frozen Daiquiri", "text": "weißer Rum, Limettensaft, Triple Sec, Zuckersirup", "preis": ["9.90"] },
+            { "name": "Strawberry Daiquiri / Frozen", "text": "weißer Rum, Limettensaft, Triple Sec, Erdbeerpüree", "preis": ["10.90"] },
+            { "name": "Mango Daiquiri / Frozen", "text": "weißer Rum, Limettensaft, Triple Sec, Mangopüree", "preis": ["10.90"] },
+            { "name": "Frozen Margarita", "text": "Tequila, Limettensaft, Triple Sec", "preis": ["9.90"] },
+            { "name": "Mon Frère Frozen", "text": "weißer Rum, Banane, gefrorene Erdbeeren, Heidelbeeren, frischer Limettensaft", "preis": ["10.90"] }
+          ]
+        },
+        {
+          "titel": "Sahne-Cocktails",
+          "artikel": [
+            { "name": "Black Russian", "text": "Wodka, Kahlúa", "preis": ["8.50"] },
+            { "name": "Piña Colada", "text": "Wodka, Rum, Kokossirup, Sahne, Ananassaft", "preis": ["9.90"] },
+            { "name": "Strawberry Colada", "text": "Wodka, Rum, Erdbeersirup, Sahne, Ananassaft", "preis": ["9.90"] },
+            { "name": "Mango Colada", "text": "Wodka, Rum, Mangosirup, Sahne, Ananassaft", "preis": ["9.90"] },
+            { "name": "Pfirsich Colada", "text": "Wodka, Rum, Pfirsichsirup, Sahne, Ananassaft", "preis": ["9.90"] },
+            { "name": "Spain", "text": "Wodka, Licor 43, Maracuja-Nektar, Sahne", "preis": ["9.90"] },
+            { "name": "Swimming Pool", "text": "Wodka, weißer Rum, Blue Curaçao, Kokossirup, Sahne, Ananassaft", "preis": ["9.90"] },
+            { "name": "White Russian", "text": "Wodka, Kahlúa, Sahne", "preis": ["10.90"] }
+          ]
+        },
+        {
+          "titel": "Fruchtige Klassiker",
+          "artikel": [
+            { "name": "Sex on the Beach", "text": "Wodka, Pfirsichlikör, Limettensaft, Grenadine, Ananassaft", "preis": ["9.90"] },
+            { "name": "Cosmopolitan", "text": "Wodka, Limettensaft, Triple Sec, Cranberrysaft", "preis": ["10.90"] },
+            { "name": "Negroni", "text": "Gin, Campari, roter Wermut", "preis": ["9.90"] },
+            { "name": "Margarita", "text": "Tequila, Limettensaft, Triple Sec", "preis": ["9.90"] },
+            { "name": "Strawberry Margarita", "text": "Tequila, Limettensaft, Triple Sec, Erdbeerpüree", "preis": ["10.90"] },
+            { "name": "Mai Tai", "text": "dunkler Rum, Orangenlikör, Limettensaft, Mandelsirup, Zuckersirup", "preis": ["10.90"] },
+            { "name": "Zombie Hannover", "text": "weißer Rum, dunkler Rum, Limettensaft, Grenadine, Mandelsirup, Schuss Grapefruit", "preis": ["10.90"] },
+            { "name": "Bellini", "text": "Pfirsichpüree, mit Sekt oder Champagner aufgefüllt", "preis": ["10.90"] },
+            { "name": "Solero", "text": "fruchtig-cremiger Cocktail mit Maracuja", "preis": ["10.90"] },
+            { "name": "Solero-Float", "text": "Wodka, Maracujasaft, Orangensaft, Zitronensaft, Vanillesirup, 1 Kugel Vanilleeis", "preis": ["10.90"] }
+          ]
+        },
+        {
+          "titel": "Sours",
+          "artikel": [
+            { "name": "Whisky Sour", "preis": ["9.90"] },
+            { "name": "Gin Sour", "preis": ["9.90"] },
+            { "name": "Vodka Sour", "preis": ["9.90"] },
+            { "name": "Tequila Sour", "preis": ["9.90"] },
+            { "name": "Rum Sour", "preis": ["9.90"] }
+          ]
+        },
+        {
+          "titel": "Alkoholfreier Aperitif",
+          "artikel": [
+            { "name": "Granatapfel Spritz", "text": "frischer Granatapfelsaft, alkoholfreier Sekt, Limettensaft, Sprudelwasser", "preis": ["8.90"] },
+            { "name": "Virgin Orange Spritz", "text": "Orange-Spritz-Sirup, alkoholfreier Sekt, Sprudelwasser", "preis": ["8.90"] },
+            { "name": "Peach-Basil Spritz", "text": "Pfirsichpüree, Basilikum, alkoholfreier Sekt, Zitronensaft, Sprudelwasser", "preis": ["8.90"] },
+            { "name": "Lavender Spritz", "text": "alkoholfreier Sekt, Lavendelsirup, Sprudelwasser, Zitronensaft", "preis": ["8.90"] }
+          ]
+        },
+        {
+          "titel": "Alkoholfrei",
+          "artikel": [
+            { "name": "Ipanema", "preis": ["7.50"] },
+            { "name": "Virgin Mojito / Virgin Raz Mojito", "preis": ["7.50"] },
+            { "name": "Virgin Colada", "text": "nach Wahl: Kokos, Strawberry, Pfirsich oder Mango", "preis": ["7.90"] },
+            { "name": "Virgin Swimming Pool", "preis": ["7.90"] },
+            { "name": "Virgin Solero", "preis": ["7.90"] },
+            { "name": "Virgin Solero-Float", "preis": ["8.90"] },
+            { "name": "Sex on the Bar", "preis": ["7.90"] },
+            { "name": "San Francisco", "preis": ["7.90"] },
+            { "name": "Virgin Daiquiri", "text": "nach Wahl: Strawberry, Mango oder Pfirsich", "preis": ["9.50"] },
+            { "name": "Mon Frère Frozen Virgin", "preis": ["8.90"] },
+            { "name": "Sanfter Engel", "text": "Maracujasaft, Orangensaft, Kokossirup, Sahne", "preis": ["7.90"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bar",
+      "titel": "Bar & Wein",
+      "bild": "aperol",
+      "kategorien": [
+        {
+          "titel": "Prosecco",
+          "groessen": ["0,2 l", "0,75 l"],
+          "artikel": [
+            { "name": "Scavi & Ray", "preis": ["6.90", "20.90"] },
+            { "name": "Scavi & Ray Ice Prestige", "preis": ["9.90", "35.00"] }
+          ]
+        },
+        {
+          "titel": "Spritz",
+          "artikel": [
+            { "name": "Aperol Spritz", "z": "2,7", "preis": ["7.90"] },
+            { "name": "Campari Spritz", "preis": ["7.90"] },
+            { "name": "Sarti Spritz / Sarti Lemon", "preis": ["7.90"] },
+            { "name": "Hugo", "z": "2,7", "preis": ["8.90"] },
+            { "name": "Lillet Wildberry / Peach", "preis": ["8.90"] },
+            { "name": "Limochillo Spritz", "preis": ["8.90"] }
+          ]
+        },
+        {
+          "titel": "Weißwein",
+          "groessen": ["0,2 l", "0,75 l"],
+          "artikel": [
+            { "name": "Chardonnay", "preis": ["7.50", "25.90"] },
+            { "name": "Riesling", "preis": ["7.50", "25.90"] },
+            { "name": "Grauburgunder", "preis": ["7.90", "25.90"] },
+            { "name": "Lugana", "preis": ["11.90", "39.90"] }
+          ]
+        },
+        {
+          "titel": "Rotwein",
+          "groessen": ["0,2 l", "0,75 l"],
+          "fuss": "Wein auch als erfrischende Schorle erhältlich",
+          "artikel": [
+            { "name": "Lambrusco", "z": "l", "preis": ["7.90", "25.90"] },
+            { "name": "Merlot", "preis": ["7.90", "25.90"] }
+          ]
+        },
+        {
+          "titel": "Champagner",
+          "groessen": ["Flasche"],
+          "artikel": [
+            { "name": "Moët Ice", "z": "l", "preis": ["159.00"] },
+            { "name": "Moët Rosé Ice", "z": "l", "preis": ["169.00"] },
+            { "name": "Dom Pérignon", "z": "l", "preis": ["390.00"] }
+          ]
+        },
+        {
+          "titel": "Bier",
+          "artikel": [
+            { "name": "Beck’s Pils", "z": "a", "preis": ["4.20"] },
+            { "name": "Beck’s Gold", "z": "a", "preis": ["4.20"] },
+            { "name": "Corona", "z": "a", "preis": ["4.90"] },
+            { "name": "Heineken", "z": "a", "preis": ["4.90"] },
+            { "name": "Beck’s Alkoholfrei", "z": "a", "preis": ["4.20"] }
+          ]
+        },
+        {
+          "titel": "Franziskaner Weizen",
+          "artikel": [
+            { "name": "Helles Weizen", "z": "a", "preis": ["5.70"] },
+            { "name": "Dunkles Weizen", "z": "a", "preis": ["5.70"] },
+            { "name": "Bananenweizen", "z": "a", "preis": ["5.90"] },
+            { "name": "Alkoholfreies Weizen", "z": "a", "preis": ["5.70"] }
+          ]
+        },
+        {
+          "titel": "Vodka",
+          "groessen": ["4 cl", "Flasche"],
+          "artikel": [
+            { "name": "Three Sixty", "preis": ["4.90", "69.00"] },
+            { "name": "Grey Goose", "preis": ["6.90", "119.00"] },
+            { "name": "Belvedere", "preis": ["6.90", "119.00"] },
+            { "name": "Cîroc", "preis": ["7.90", "129.00"] }
+          ]
+        },
+        {
+          "titel": "Whisky",
+          "groessen": ["4 cl", "Flasche"],
+          "artikel": [
+            { "name": "Jack Daniel’s", "preis": ["5.90", "69.00"] },
+            { "name": "Jack Daniel’s Single Barrel", "preis": ["7.90", "119.00"] },
+            { "name": "Black Label", "preis": ["5.90", "69.00"] },
+            { "name": "Gentleman Jack", "preis": ["6.90", "109.00"] },
+            { "name": "Chivas", "preis": ["6.90", "109.00"] },
+            { "name": "Hennessy", "z": "2", "preis": ["7.90", "129.00"] }
+          ]
+        },
+        {
+          "titel": "Rum",
+          "groessen": ["4 cl", "Flasche"],
+          "artikel": [
+            { "name": "Bacardi", "z": "2", "preis": ["5.40", "89.00"] },
+            { "name": "Bacardi Razz", "z": "2", "preis": ["5.40", "89.00"] },
+            { "name": "Havana Club 3 J.", "z": "2", "preis": ["4.90", "89.00"] },
+            { "name": "Havana Club 7 J.", "z": "2", "preis": ["6.90", "129.00"] }
+          ]
+        },
+        {
+          "titel": "Gin",
+          "groessen": ["4 cl", "Flasche"],
+          "artikel": [
+            { "name": "Bombay", "preis": ["5.90", "79.00"] },
+            { "name": "Monkey 47", "preis": ["7.90", "119.00"] },
+            { "name": "Hendrick’s", "preis": ["7.90", "129.00"] }
+          ]
+        },
+        {
+          "titel": "Raki",
+          "groessen": ["4 cl", "Flasche"],
+          "artikel": [
+            { "name": "Tekirdağ Gold", "preis": ["6.90", "89.00"] }
+          ]
+        },
+        {
+          "titel": "Shots",
+          "groessen": ["2 cl"],
+          "artikel": [
+            { "name": "Jägermeister", "preis": ["3.50"] },
+            { "name": "Erdbeerlimes", "preis": ["3.50"] },
+            { "name": "Vodka Lime", "preis": ["3.50"] },
+            { "name": "Sambuca", "preis": ["3.50"] },
+            { "name": "Tequila", "preis": ["3.50"] },
+            { "name": "Ficken", "preis": ["3.50"] },
+            { "name": "Frangelico", "preis": ["3.50"] },
+            { "name": "B52", "preis": ["4.50"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "softdrinks",
+      "titel": "Softdrinks",
+      "bild": "cocktail-bar",
+      "kategorien": [
+        {
+          "titel": "Softdrinks",
+          "groessen": ["0,2 l", "0,4 l"],
+          "artikel": [
+            { "name": "Cola", "z": "1,2,3,5,8", "preis": ["3.40", "4.90"] },
+            { "name": "Cola Zero", "z": "1,2,3,4,5,8", "preis": ["3.40", "4.90"] },
+            { "name": "Sprite", "z": "3", "preis": ["3.40", "4.90"] },
+            { "name": "Fanta", "z": "2,3", "preis": ["3.40", "4.90"] },
+            { "name": "Mezzo Mix", "z": "2,3,8", "preis": ["3.40", "4.90"] },
+            { "name": "Moloko 0,25 l", "z": "2,3", "preis": ["4.40", ""] }
+          ]
+        },
+        {
+          "titel": "Wasser",
+          "groessen": ["0,25 l", "0,75 l"],
+          "artikel": [
+            { "name": "Aqua Morelli Naturell / Sparkling", "preis": ["3.40", "8.90"] }
+          ]
+        },
+        {
+          "titel": "Säfte & Schorlen",
+          "groessen": ["0,25 l", "0,4 l"],
+          "fuss": "Alle Säfte sind auch als erfrischende Schorle erhältlich",
+          "artikel": [
+            { "name": "Ananas", "z": "3", "preis": ["3.90", "5.90"] },
+            { "name": "Apfel", "preis": ["3.90", "5.90"] },
+            { "name": "Banane", "z": "3", "preis": ["3.90", "5.90"] },
+            { "name": "Cranberry", "z": "3", "preis": ["3.90", "5.90"] },
+            { "name": "KiBa", "z": "3", "preis": ["3.90", "5.90"] },
+            { "name": "Kirsche", "z": "3", "preis": ["3.90", "5.90"] },
+            { "name": "Maracuja", "z": "3", "preis": ["3.90", "5.90"] },
+            { "name": "Orange", "preis": ["3.90", "5.90"] },
+            { "name": "Frisch gepresster Orangensaft", "preis": ["5.90", "7.90"] }
+          ]
+        },
+        {
+          "titel": "Red Bull",
+          "groessen": ["0,25 l"],
+          "artikel": [
+            { "name": "Classic", "z": "2,3,4,8", "preis": ["4.40"] },
+            { "name": "Sugarfree", "z": "2,3,4,8", "preis": ["4.40"] },
+            { "name": "Red Bull Edition", "z": "2,3,4,8", "preis": ["4.40"] }
+          ]
+        },
+        {
+          "titel": "California Ice Tea",
+          "groessen": ["0,33 l"],
+          "artikel": [
+            { "name": "Pfirsich", "z": "3", "preis": ["4.90"] },
+            { "name": "Zitrone", "z": "3", "preis": ["4.90"] },
+            { "name": "Mango", "z": "3", "preis": ["4.90"] },
+            { "name": "Wassermelone", "z": "3", "preis": ["4.90"] },
+            { "name": "Granatapfel", "z": "3", "preis": ["4.90"] },
+            { "name": "Blaubeere", "z": "3", "preis": ["4.90"] },
+            { "name": "Ananas", "z": "3", "preis": ["4.90"] }
+          ]
+        },
+        {
+          "titel": "Hausgemachte Limonade",
+          "groessen": ["0,4 l"],
+          "artikel": [
+            { "name": "Hausgemachte Limonade", "preis": ["6.90"] },
+            { "name": "Himbeer Minz Limo", "preis": ["6.90"] },
+            { "name": "Grenadine Minz Limo", "preis": ["6.90"] },
+            { "name": "Pfirsich Minz Limo", "preis": ["6.90"] },
+            { "name": "Wassermelone Minz Limo", "preis": ["6.90"] },
+            { "name": "Maracuja Minz Limo", "preis": ["6.90"] },
+            { "name": "Erdbeer Minz Limo", "preis": ["6.90"] },
+            { "name": "Holunder Minz Limo", "preis": ["6.90"] },
+            { "name": "Mango Minz Limo", "preis": ["6.90"] }
+          ]
+        },
+        {
+          "titel": "Schweppes",
+          "groessen": ["0,2 l"],
+          "artikel": [
+            { "name": "Ginger Ale", "z": "2,3", "preis": ["4.10"] },
+            { "name": "Ginger Beer", "preis": ["4.10"] },
+            { "name": "Bitter Lemon", "z": "3,7", "preis": ["4.10"] },
+            { "name": "Tonic Water", "z": "7", "preis": ["4.10"] },
+            { "name": "Russian Wildberry", "preis": ["4.10"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heiss",
+      "titel": "Kaffee & Tee",
+      "bild": "cappuccino",
+      "kategorien": [
+        {
+          "titel": "Kaffee",
+          "artikel": [
+            { "name": "Espresso", "z": "8", "preis": ["3.20"] },
+            { "name": "Espresso Macchiato", "z": "8,g", "preis": ["3.40"] },
+            { "name": "Doppelter Espresso", "z": "8", "preis": ["3.90"] },
+            { "name": "Kaffee Crema", "z": "8,g", "preis": ["3.70"] },
+            { "name": "Cappuccino", "z": "8,g", "preis": ["3.90"] },
+            { "name": "Milchkaffee", "z": "8,g", "preis": ["3.90"] },
+            { "name": "Latte Macchiato", "z": "8,g", "preis": ["4.40"] },
+            { "name": "Heiße Schokolade", "z": "4,5,8,g", "preis": ["4.40"] },
+            { "name": "Mocca", "z": "8", "preis": ["4.20"] },
+            { "name": "Mocca mit Milch", "z": "8,g", "preis": ["4.70"] }
+          ]
+        },
+        {
+          "titel": "Eiskaffee",
+          "artikel": [
+            { "name": "Frappé Classic", "preis": ["5.00"] },
+            { "name": "Frappé Vanille-Ice", "text": "mehrere Flavours nach Wunsch", "preis": ["6.00"] },
+            { "name": "Frappé mit Eis", "text": "mit einer Kugel Vanilleeis", "preis": ["7.90"] }
+          ]
+        },
+        {
+          "titel": "Tee",
+          "artikel": [
+            { "name": "Schwarzer Tee", "preis": ["3.70"] },
+            { "name": "Grüner Tee", "preis": ["3.70"] },
+            { "name": "Kamillentee", "preis": ["3.70"] },
+            { "name": "Pfefferminztee", "preis": ["3.70"] },
+            { "name": "Apfeltee", "preis": ["3.70"] },
+            { "name": "Heiße Zitrone", "preis": ["4.40"] },
+            { "name": "Frischer Minztee", "text": "mit Zitrone & Honig", "preis": ["4.40"] },
+            { "name": "Mon Frère Tee", "text": "mit Ingwer, Minze, Zitrone & Honig", "preis": ["4.90"] }
+          ]
+        },
+        {
+          "titel": "Matcha",
+          "artikel": [
+            { "name": "Matcha Latte", "preis": ["5.40"] },
+            { "name": "Iced Matcha Latte", "preis": ["6.40"] },
+            { "name": "Iced Matcha Latte nach Wahl", "text": "Schoko, Vanille, Karamell oder Erdbeere", "preis": ["7.40"] }
+          ]
+        },
+        {
+          "titel": "Milkshakes",
+          "artikel": [
+            { "name": "Vanille Milkshake", "preis": ["7.90"] },
+            { "name": "Schoko Milkshake", "preis": ["7.90"] },
+            { "name": "Erdbeer Milkshake", "preis": ["7.90"] },
+            { "name": "Oreo Milkshake", "preis": ["8.90"] }
+          ]
+        }
+      ]
+    }
+  ],
+  "zusatzstoffe": [
+    ["1", "mit Konservierungsstoff"], ["2", "mit Farbstoff"], ["3", "mit Antioxidationsmittel"], ["4", "mit Süßungsmittel"],
+    ["5", "mit Phosphat"], ["6", "geschwefelt"], ["7", "chininhaltig"], ["8", "coffeinhaltig"],
+    ["9", "mit Geschmacksverstärker"], ["10", "geschwärzt"], ["11", "gewachst"], ["12", "gentechnisch verändert"]
+  ],
+  "allergene": [
+    ["a", "glutenhaltiges Getreide"], ["b", "Krebstiere"], ["c", "Eier"], ["d", "Fische"], ["e", "Erdnüsse"],
+    ["f", "Sojabohnen"], ["g", "Milch"], ["h", "Schalenfrüchte"], ["i", "Sellerie"], ["j", "Senf"],
+    ["k", "Sesamsamen"], ["l", "Schwefeldioxid und Sulfite"], ["m", "Lupinen"], ["n", "Weichtiere"]
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "domain": "https://monfrere-hannover.de/",
+  "kurz": "Mon Frère in Hannover-Mitte: Shisha-Lounge mit Sushi, Bowls und Cocktails in der Nikolaistraße 32. Täglich ab 12 Uhr geöffnet, Happy Hour bis 17 Uhr.",
+  "strasse": "Nikolaistraße 32",
+  "plz": "30159",
+  "ort": "Hannover",
+  "geo": [52.3822822, 9.7329298],
+  "telefon": "0511 45006665",
+  "instagram": "monfrere_hannover",
+  "instagram_url": "https://www.instagram.com/monfrere_hannover/",
+  "tiktok": "monfrere_hannover",
+  "tiktok_url": "https://www.tiktok.com/@monfrere_hannover",
+  "lieferung_name": "Mon Sushi",
+  "lieferung_url": "https://monsushi.de/",
+  "lieferung_anzeige": "monsushi.de",
+  "zeiten": [
+    { "tage": "Sonntag – Donnerstag", "von": "12:00", "bis": "02:00" },
+    { "tage": "Freitag & Samstag", "von": "12:00", "bis": "03:00" },
+    { "tage": "Feiertage", "von": "12:00", "bis": "03:00" }
+  ],
+  "zeiten_maschinell": [
+    { "tage": ["So", "Mo", "Di", "Mi", "Do"], "von": "12:00", "bis": "02:00" },
+    { "tage": ["Fr", "Sa"], "von": "12:00", "bis": "03:00" }
+  ],
+  "zeiten_hinweis": "Küche und Bar ab 12 Uhr. Happy Hour täglich von 12 bis 17 Uhr.",
+  "anfahrt": "Mitten in Hannover, gut zu Fuß vom Hauptbahnhof und vom Steintor erreichbar.",
+  "willkommen": [
+    "Mon Frère ist Shisha-Lounge, Sushi-Bar und Cocktailbar in einem. Nach der Renovierung haben wir im September 2025 neu eröffnet.",
+    "Bei uns gibt es frisches Sushi, Bowls, Curry und Penne aus der eigenen Küche. Dazu kommen über 30 Tabaksorten und eine lange Cocktailkarte, mit und ohne Alkohol.",
+    "Komm auf einen Kaffee am Nachmittag, zum Essen mit Freunden oder für einen langen Abend. Wir freuen uns auf dich."
+  ],
+  "bereiche": [
+    {
+      "titel": "Shisha",
+      "text": "Gold, Platin und nikotinfreie Sorten. Von Zitrone Minze bis Love 66.",
+      "bild": "shisha-funken",
+      "alt": "Shisha-Kopf mit glühender Kohle",
+      "link": "speisekarte.html#shisha",
+      "cta": "Alle Sorten"
+    },
+    {
+      "titel": "Sushi & Küche",
+      "text": "Maki, Inside Out, Crunchy Rolls und Platten zum Teilen. Dazu Bowls, Curry, Penne und Pfannen.",
+      "bild": "crunchy-roll",
+      "alt": "Crunchy Roll von Mon Frère auf schwarzem Teller",
+      "link": "speisekarte.html#sushi",
+      "cta": "Zur Küche"
+    },
+    {
+      "titel": "Cocktails & Bar",
+      "text": "Mojitos, Coladas, Frozen Drinks und alkoholfreie Spritz. Dazu Wein, Champagner und Spirituosen.",
+      "bild": "cocktails",
+      "alt": "Verschiedene bunte Cocktails auf einer Bar",
+      "link": "speisekarte.html#cocktails",
+      "cta": "Zur Bar"
+    }
+  ],
+  "recht": {
+    "inhaber": "Serdal Öküzbogan",
+    "email": "monfrere32@web.de",
+    "ust_id": "",
+    "aufsicht": "Die Landesbeauftragte für den Datenschutz Niedersachsen, Prinzenstraße 5, 30159 Hannover",
+    "stand": "Oktober 2026"
+  }
+}
