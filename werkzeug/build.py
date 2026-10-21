@@ -104,7 +104,7 @@ def layout(*, datei, titel, beschreibung, inhalt, extra_head="", body_klasse="")
   <div class="fuss__innen">
     <div class="fuss__marke">
       <img src="assets/img/logo-mf.png" alt="Mon Frère" width="64" height="48">
-      <p>Shisha · Sushi · Cocktails<br>{e(ADRESSE)}</p>
+      <p>Shisha · Sushi · Asia Kitchen<br>{e(ADRESSE)}</p>
     </div>
     <div class="fuss__spalte">
       <h2>Kontakt</h2>
@@ -233,7 +233,7 @@ def startseite():
   <div class="held__innen">
     <img class="held__logo" src="assets/img/logo-mf.png" alt="" width="180" height="137">
     <h1>Mon Frère</h1>
-    <p class="held__zeile">Shisha · Sushi · Cocktails</p>
+    <p class="held__zeile">Shisha · Sushi · Asia Kitchen</p>
     <p class="held__ort">{e(B["strasse"])} · {e(B["ort"])}-Mitte</p>
     <p class="status" id="jetzt" hidden></p>
     <div class="held__knoepfe">
@@ -307,7 +307,7 @@ def startseite():
 """
     return layout(
         datei="index.html",
-        titel="Mon Frère Hannover – Shisha, Sushi & Cocktails in der Nikolaistraße",
+        titel="Mon Frère Hannover – Shisha, Sushi & Asia Kitchen in der Nikolaistraße",
         beschreibung=B["kurz"],
         inhalt=inhalt,
         extra_head=json_ld(),
